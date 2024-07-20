@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "builds": [{ "src": "./MainServer.js", "use": "@vercel/node "}],
+  "routes": [{ "src": "/(.*)", "dest": "/"}]
+
+}
