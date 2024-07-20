@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "MainServer.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "start": "nodemon MainServer.js"
+    "start": "node MainServer.js"
   },
   "keywords": [],
   "author": "",
